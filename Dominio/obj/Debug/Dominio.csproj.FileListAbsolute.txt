@@ -1,0 +1,16 @@
+C:\Users\Facu\source\repos\WindowsApp\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\Users\Facu\source\repos\WindowsApp\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Facu\source\repos\WindowsApp\Dominio\bin\Debug\grpc_csharp_ext.x86.dll
+C:\Users\Facu\source\repos\WindowsApp\Dominio\bin\Debug\grpc_csharp_ext.x64.dll
+C:\Users\Facu\source\repos\WindowsApp\Dominio\bin\Debug\libgrpc_csharp_ext.x64.so
+C:\Users\Facu\source\repos\WindowsApp\Dominio\bin\Debug\libgrpc_csharp_ext.x64.dylib
+C:\Users\Facu\source\repos\WindowsApp\Dominio\bin\Debug\Dominio.dll
+C:\Users\Facu\source\repos\WindowsApp\Dominio\bin\Debug\Dominio.pdb
+C:\Users\Facu\source\repos\WindowsApp\Dominio\bin\Debug\Common.dll
+C:\Users\Facu\source\repos\WindowsApp\Dominio\bin\Debug\Datos.dll
+C:\Users\Facu\source\repos\WindowsApp\Dominio\bin\Debug\Common.pdb
+C:\Users\Facu\source\repos\WindowsApp\Dominio\bin\Debug\Datos.pdb
+C:\Users\Facu\source\repos\WindowsApp\Dominio\bin\Debug\Datos.dll.config
+C:\Users\Facu\source\repos\WindowsApp\Dominio\obj\Debug\Dominio.dll
+C:\Users\Facu\source\repos\WindowsApp\Dominio\obj\Debug\Dominio.pdb
+C:\Users\Facu\source\repos\WindowsApp\Dominio\obj\Debug\Dominio.csproj.CopyComplete
