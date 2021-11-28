@@ -22,5 +22,10 @@ namespace Presentation
         {
 
         }
+
+        private void lblNombreUsuarioSettings_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

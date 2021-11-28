@@ -26,7 +26,8 @@ namespace Datos.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=.;Initial Catalog=WindowsApp;Integrated Security=True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=WindowsAppProducts.mssql.somee.com;Initial Catalog=WindowsAppProducts" +
+            ";Persist Security Info=True;User ID=FacundoC_SQLLogin_1;Password=4t23efo3i7")]
         public string DBKeyWindowsApp {
             get {
                 return ((string)(this["DBKeyWindowsApp"]));

@@ -1,7 +1,7 @@
 ﻿
 namespace Presentation
 {
-    partial class frmLogin
+     partial class frmLogin
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -243,6 +243,7 @@ namespace Presentation
             this.linkLabel2.Text = "¿Ha Olvidado su Contraseña?";
             this.linkLabel2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.linkLabel2.VisitedLinkColor = System.Drawing.Color.Gray;
+            this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
             // 
             // label1
             // 

@@ -116,12 +116,12 @@ namespace Presentation
             // 
             // lblBienvenido
             // 
-            this.lblBienvenido.Font = new System.Drawing.Font("Malgun Gothic Semilight", 40F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.lblBienvenido.Font = new System.Drawing.Font("Malgun Gothic Semilight", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
             this.lblBienvenido.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.lblBienvenido.Location = new System.Drawing.Point(710, 35);
+            this.lblBienvenido.Location = new System.Drawing.Point(448, 94);
             this.lblBienvenido.Margin = new System.Windows.Forms.Padding(0);
             this.lblBienvenido.Name = "lblBienvenido";
-            this.lblBienvenido.Size = new System.Drawing.Size(253, 59);
+            this.lblBienvenido.Size = new System.Drawing.Size(191, 39);
             this.lblBienvenido.TabIndex = 1;
             this.lblBienvenido.Text = "label1";
             // 

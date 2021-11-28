@@ -248,6 +248,12 @@ namespace Presentation
 
 
         }
-        
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            frmCambiarPassword frmCambiar = new frmCambiarPassword();
+            frmCambiar.Show();
+            this.Hide();
+        }
     }
 }

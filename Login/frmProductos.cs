@@ -217,9 +217,8 @@ namespace Presentation
         }
 
         private void gridProductos_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
-        {
-            if(e.Value.GetType()!= typeof(System.DBNull))
-            {
+        { 
+            
                 if (this.gridProductos.Columns[e.ColumnIndex].Name == "Stock")
                 {
                     if (e.Value != null)
@@ -241,10 +240,9 @@ namespace Presentation
                         }
                     }
                 }
-
-            }
-
         }
+
+
 
     }
 }

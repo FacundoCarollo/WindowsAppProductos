@@ -264,11 +264,7 @@ namespace Presentation
 
         }
 
-        private void btnSales_Click(object sender, EventArgs e)
-        {
-            ActivateButton(sender, RGBColors.color6);
-            AbrirFormHijo(new frmSettings());
-        }
+       
 
         private void lblInicio_Click(object sender, EventArgs e)
         {

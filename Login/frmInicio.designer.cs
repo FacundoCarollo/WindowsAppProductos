@@ -34,7 +34,6 @@ namespace Presentation
             this.lblEmailInicio = new System.Windows.Forms.Label();
             this.lblPositionicio = new System.Windows.Forms.Label();
             this.iconPictureBox1 = new FontAwesome.Sharp.IconPictureBox();
-            this.btnSales = new FontAwesome.Sharp.IconButton();
             this.btnSettings = new FontAwesome.Sharp.IconButton();
             this.btnLogOut = new FontAwesome.Sharp.IconButton();
             this.btnProducts = new FontAwesome.Sharp.IconButton();
@@ -63,7 +62,6 @@ namespace Presentation
             this.barNav.Controls.Add(this.lblEmailInicio);
             this.barNav.Controls.Add(this.lblPositionicio);
             this.barNav.Controls.Add(this.iconPictureBox1);
-            this.barNav.Controls.Add(this.btnSales);
             this.barNav.Controls.Add(this.btnSettings);
             this.barNav.Controls.Add(this.btnLogOut);
             this.barNav.Controls.Add(this.btnProducts);
@@ -120,27 +118,6 @@ namespace Presentation
             this.iconPictureBox1.TabIndex = 1;
             this.iconPictureBox1.TabStop = false;
             // 
-            // btnSales
-            // 
-            this.btnSales.FlatAppearance.BorderSize = 0;
-            this.btnSales.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSales.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnSales.IconChar = FontAwesome.Sharp.IconChar.ShoppingCart;
-            this.btnSales.IconColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnSales.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnSales.IconSize = 32;
-            this.btnSales.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSales.Location = new System.Drawing.Point(0, 195);
-            this.btnSales.Name = "btnSales";
-            this.btnSales.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.btnSales.Size = new System.Drawing.Size(219, 41);
-            this.btnSales.TabIndex = 15;
-            this.btnSales.Text = "Sales";
-            this.btnSales.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSales.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnSales.UseVisualStyleBackColor = true;
-            this.btnSales.Click += new System.EventHandler(this.btnSales_Click);
-            // 
             // btnSettings
             // 
             this.btnSettings.FlatAppearance.BorderSize = 0;
@@ -151,7 +128,7 @@ namespace Presentation
             this.btnSettings.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnSettings.IconSize = 32;
             this.btnSettings.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSettings.Location = new System.Drawing.Point(0, 240);
+            this.btnSettings.Location = new System.Drawing.Point(0, 197);
             this.btnSettings.Name = "btnSettings";
             this.btnSettings.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
             this.btnSettings.Size = new System.Drawing.Size(219, 41);
@@ -372,7 +349,6 @@ namespace Presentation
         private System.Windows.Forms.Panel barControl;
         private FontAwesome.Sharp.IconButton btnMinimize;
         private FontAwesome.Sharp.IconButton btnMaximize;
-        private FontAwesome.Sharp.IconButton btnSales;
         public System.Windows.Forms.Label lblInicio;
         public FontAwesome.Sharp.IconButton btnHome;
         public FontAwesome.Sharp.IconButton btnLogOut;

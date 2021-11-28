@@ -89,6 +89,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmCambiarPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCambiarPassword.Designer.cs">
+      <DependentUpon>frmCambiarPassword.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmConfiirmacionLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -119,12 +125,6 @@
     <Compile Include="frmProductos.designer.cs">
       <DependentUpon>frmProductos.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmSales.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmSales.Designer.cs">
-      <DependentUpon>frmSales.cs</DependentUpon>
-    </Compile>
     <Compile Include="frmSettings.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -133,6 +133,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmCambiarPassword.resx">
+      <DependentUpon>frmCambiarPassword.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmConfiirmacionLogin.resx">
       <DependentUpon>frmConfiirmacionLogin.cs</DependentUpon>
     </EmbeddedResource>

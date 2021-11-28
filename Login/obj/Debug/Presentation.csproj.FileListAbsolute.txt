@@ -48,4 +48,5 @@ C:\Users\Facu\source\repos\WindowsApp\Login\bin\Debug\Microsoft.Extensions.Depen
 C:\Users\Facu\source\repos\WindowsApp\Login\bin\Debug\Dominio.dll
 C:\Users\Facu\source\repos\WindowsApp\Login\bin\Debug\Dominio.pdb
 C:\Users\Facu\source\repos\WindowsApp\Login\obj\Debug\Presentation.frmSettings.resources
+C:\Users\Facu\source\repos\WindowsApp\Login\obj\Debug\Presentation.frmCambiarPassword.resources
 C:\Users\Facu\source\repos\WindowsApp\Login\obj\Debug\Presentation.csproj.CopyComplete
