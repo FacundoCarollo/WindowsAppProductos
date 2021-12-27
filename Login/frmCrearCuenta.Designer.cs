@@ -291,6 +291,7 @@ namespace Presentation
             this.lblLogin.Text = "Inicia tu Sesion";
             this.lblLogin.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblLogin.VisitedLinkColor = System.Drawing.Color.Gray;
+            this.lblLogin.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lblLogin_LinkClicked_1);
             // 
             // txtPassword
             // 

@@ -37,7 +37,7 @@ namespace Presentation
         public frmInicio()
         {
             InitializeComponent();
-
+             
             BordeBtn = new Panel();
             BordeBtn.Size = new Size(5, 41);
             barNav.Controls.Add(BordeBtn);
@@ -117,7 +117,7 @@ namespace Presentation
 
         private void CargarDatosInicio()
         {
-            lblPositionicio.Text = UserCache.Position;
+         
             lblEmailInicio.Text = UserCache.Email;
             lblUserInicio.Text = UserCache.Username;
 
@@ -139,6 +139,8 @@ namespace Presentation
 
         private void AbrirFormHijo(Form FormHijo)
         {
+            frmInicio inicio = new frmInicio();
+            inicio.Width += 100;
             //open only form
             if (ActualFormHijo != null)
             {
@@ -154,6 +156,8 @@ namespace Presentation
             Main.Tag = FormHijo;
             FormHijo.BringToFront();
             FormHijo.Show();
+
+          
          
         }
 

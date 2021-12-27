@@ -83,55 +83,7 @@ namespace Datos.Admin
 
         }
 
-        public string RecuperarContraseña(string recuperarUsuario)
-        {
-            ;
-            string select = "SELECT Password From dbo.Usuarios where  Email = @Email ";
-            SqlCommand cmd = new SqlCommand(select, BaseDatos.ConectarDB());
-           
-            cmd.Parameters.AddWithValue("@Email", recuperarUsuario);
-
-        
-            cmd.CommandType = CommandType.Text;
-            SqlDataReader reader = cmd.ExecuteReader();
-
-            if (reader.Read() == true)
-            {
-             
-                MailMessage msg = new MailMessage();
-                msg.To.Add(recuperarUsuario);
-                msg.Subject = "Recuperacion de Contraseña";
-                msg.SubjectEncoding = Encoding.UTF8;
-                msg.Body = "Su contraseña es: 1234 ";
-                msg.BodyEncoding = Encoding.UTF8;
-                msg.IsBodyHtml = true;
-                msg.From = new MailAddress(recuperarUsuario);
-                SmtpClient smtp = new SmtpClient();
-                smtp.Credentials = new NetworkCredential("facucarollo@gmail.com","compumundo25" );
-                smtp.Port = 587;
-                smtp.EnableSsl = true;
-                smtp.Host = "smtp.@gmail.com";
-                try
-                {
-                    smtp.Send(msg);
-                }
-                catch(Exception )
-                {
-                
-                     msg.Dispose();
-                    smtp.Dispose();
-                
-                }
-                  
-
-               
-               
-               
-                   
-               
-            }
-            return "Por favor revice su Email";
-        }
+      
 
 
 

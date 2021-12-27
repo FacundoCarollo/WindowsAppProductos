@@ -32,7 +32,6 @@ namespace Presentation
             this.barNav = new System.Windows.Forms.Panel();
             this.lblUserInicio = new System.Windows.Forms.Label();
             this.lblEmailInicio = new System.Windows.Forms.Label();
-            this.lblPositionicio = new System.Windows.Forms.Label();
             this.iconPictureBox1 = new FontAwesome.Sharp.IconPictureBox();
             this.btnSettings = new FontAwesome.Sharp.IconButton();
             this.btnLogOut = new FontAwesome.Sharp.IconButton();
@@ -60,7 +59,6 @@ namespace Presentation
             this.barNav.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
             this.barNav.Controls.Add(this.lblUserInicio);
             this.barNav.Controls.Add(this.lblEmailInicio);
-            this.barNav.Controls.Add(this.lblPositionicio);
             this.barNav.Controls.Add(this.iconPictureBox1);
             this.barNav.Controls.Add(this.btnSettings);
             this.barNav.Controls.Add(this.btnLogOut);
@@ -92,16 +90,6 @@ namespace Presentation
             this.lblEmailInicio.TabIndex = 17;
             this.lblEmailInicio.Text = "label3";
             this.lblEmailInicio.Click += new System.EventHandler(this.lblEmailInicio_Click);
-            // 
-            // lblPositionicio
-            // 
-            this.lblPositionicio.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.lblPositionicio.ForeColor = System.Drawing.SystemColors.Control;
-            this.lblPositionicio.Location = new System.Drawing.Point(84, 20);
-            this.lblPositionicio.Name = "lblPositionicio";
-            this.lblPositionicio.Size = new System.Drawing.Size(97, 17);
-            this.lblPositionicio.TabIndex = 1;
-            this.lblPositionicio.Text = "label1";
             // 
             // iconPictureBox1
             // 
@@ -141,6 +129,7 @@ namespace Presentation
             // 
             // btnLogOut
             // 
+            this.btnLogOut.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnLogOut.FlatAppearance.BorderSize = 0;
             this.btnLogOut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogOut.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -204,6 +193,8 @@ namespace Presentation
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(219, 104);
@@ -226,6 +217,9 @@ namespace Presentation
             // 
             // lblInicio
             // 
+            this.lblInicio.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lblInicio.Font = new System.Drawing.Font("Microsoft Sans Serif", 80F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblInicio.Location = new System.Drawing.Point(189, 130);
             this.lblInicio.Name = "lblInicio";
@@ -354,7 +348,6 @@ namespace Presentation
         public FontAwesome.Sharp.IconButton btnLogOut;
         private FontAwesome.Sharp.IconPictureBox iconPictureBox1;
         public System.Windows.Forms.Label lblEmailInicio;
-        private System.Windows.Forms.Label lblPositionicio;
         private System.Windows.Forms.Label lblUserInicio;
     }
 }

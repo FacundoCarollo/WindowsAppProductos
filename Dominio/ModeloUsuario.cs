@@ -30,10 +30,7 @@ namespace Dominio
        }
 
 
-        public string RecuperarContraseña(string recuperarUsuario)
-        {
-           return usuario.RecuperarContraseña(recuperarUsuario);
-        }
+   
 
       
     }

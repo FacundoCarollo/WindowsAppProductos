@@ -14,16 +14,18 @@ namespace Presentation
 {
     public partial class frmProductos : Form
     {
-
+        
         ModeloProducto producto = new ModeloProducto();
         private string idProducto = null;
         private bool Editar = false;
         public frmProductos()
         {
+
+          
             InitializeComponent();
         }
 
-
+        
 
 
 

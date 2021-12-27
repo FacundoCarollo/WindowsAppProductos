@@ -32,6 +32,8 @@ namespace Presentation
             this.pageSetupDialog1 = new System.Windows.Forms.PageSetupDialog();
             this.iconSettings = new FontAwesome.Sharp.IconPictureBox();
             this.panelFormSettings = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.lblPositionSettingsForms = new System.Windows.Forms.Label();
             this.lblPasswordSettingsForms = new System.Windows.Forms.Label();
             this.lblEmailSettingsForms = new System.Windows.Forms.Label();
@@ -49,30 +51,39 @@ namespace Presentation
             this.lblPositionSettings = new System.Windows.Forms.Label();
             this.lblEmailSettings = new System.Windows.Forms.Label();
             this.lblUserNameSettings = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.iconSettings)).BeginInit();
             this.panelFormSettings.SuspendLayout();
             this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
+            this.panel3.SuspendLayout();
+            this.panel4.SuspendLayout();
             this.SuspendLayout();
             // 
             // iconSettings
             // 
+            this.iconSettings.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.iconSettings.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(46)))), ((int)(((byte)(59)))));
             this.iconSettings.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.iconSettings.IconChar = FontAwesome.Sharp.IconChar.User;
             this.iconSettings.IconColor = System.Drawing.SystemColors.ButtonHighlight;
             this.iconSettings.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconSettings.IconSize = 203;
-            this.iconSettings.Location = new System.Drawing.Point(72, 97);
+            this.iconSettings.IconSize = 193;
+            this.iconSettings.Location = new System.Drawing.Point(27, 76);
             this.iconSettings.Margin = new System.Windows.Forms.Padding(0);
             this.iconSettings.Name = "iconSettings";
-            this.iconSettings.Size = new System.Drawing.Size(203, 232);
+            this.iconSettings.Size = new System.Drawing.Size(193, 426);
             this.iconSettings.TabIndex = 2;
             this.iconSettings.TabStop = false;
             // 
             // panelFormSettings
             // 
+            this.panelFormSettings.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panelFormSettings.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
             this.panelFormSettings.Controls.Add(this.label1);
             this.panelFormSettings.Controls.Add(this.textBox1);
@@ -86,10 +97,27 @@ namespace Presentation
             this.panelFormSettings.Controls.Add(this.txtEmailSettings);
             this.panelFormSettings.Controls.Add(this.txtNombreSettings);
             this.panelFormSettings.Controls.Add(this.btnCancelarSettings);
-            this.panelFormSettings.Location = new System.Drawing.Point(532, 3);
+            this.panelFormSettings.Location = new System.Drawing.Point(532, 0);
             this.panelFormSettings.Name = "panelFormSettings";
-            this.panelFormSettings.Size = new System.Drawing.Size(478, 548);
+            this.panelFormSettings.Size = new System.Drawing.Size(478, 554);
             this.panelFormSettings.TabIndex = 27;
+            // 
+            // label1
+            // 
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.label1.ForeColor = System.Drawing.SystemColors.Control;
+            this.label1.Location = new System.Drawing.Point(47, 249);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(120, 18);
+            this.label1.TabIndex = 38;
+            this.label1.Text = "Password Nueva :";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(173, 247);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(269, 20);
+            this.textBox1.TabIndex = 37;
             // 
             // lblPositionSettingsForms
             // 
@@ -134,11 +162,12 @@ namespace Presentation
             // 
             // btnGuardarSettings
             // 
+            this.btnGuardarSettings.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.btnGuardarSettings.BackColor = System.Drawing.SystemColors.Highlight;
             this.btnGuardarSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGuardarSettings.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGuardarSettings.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnGuardarSettings.Location = new System.Drawing.Point(65, 321);
+            this.btnGuardarSettings.Location = new System.Drawing.Point(65, 324);
             this.btnGuardarSettings.Name = "btnGuardarSettings";
             this.btnGuardarSettings.Size = new System.Drawing.Size(378, 23);
             this.btnGuardarSettings.TabIndex = 27;
@@ -175,10 +204,11 @@ namespace Presentation
             // 
             // btnCancelarSettings
             // 
+            this.btnCancelarSettings.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.btnCancelarSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCancelarSettings.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancelarSettings.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnCancelarSettings.Location = new System.Drawing.Point(65, 391);
+            this.btnCancelarSettings.Location = new System.Drawing.Point(65, 394);
             this.btnCancelarSettings.Name = "btnCancelarSettings";
             this.btnCancelarSettings.Size = new System.Drawing.Size(378, 23);
             this.btnCancelarSettings.TabIndex = 28;
@@ -187,15 +217,15 @@ namespace Presentation
             // 
             // panel1
             // 
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(46)))), ((int)(((byte)(59)))));
+            this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.lblMostrarPosition);
             this.panel1.Controls.Add(this.lblMostrarEmail);
             this.panel1.Controls.Add(this.lblMostrarUserName);
-            this.panel1.Controls.Add(this.lblPositionSettings);
-            this.panel1.Controls.Add(this.lblEmailSettings);
-            this.panel1.Controls.Add(this.lblUserNameSettings);
             this.panel1.Controls.Add(this.panelFormSettings);
-            this.panel1.Controls.Add(this.iconSettings);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1010, 554);
@@ -230,50 +260,76 @@ namespace Presentation
             // 
             // lblPositionSettings
             // 
+            this.lblPositionSettings.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.lblPositionSettings.AutoSize = true;
             this.lblPositionSettings.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.lblPositionSettings.ForeColor = System.Drawing.SystemColors.Control;
-            this.lblPositionSettings.Location = new System.Drawing.Point(317, 219);
+            this.lblPositionSettings.Location = new System.Drawing.Point(16, 310);
             this.lblPositionSettings.Name = "lblPositionSettings";
-            this.lblPositionSettings.Size = new System.Drawing.Size(97, 18);
+            this.lblPositionSettings.Size = new System.Drawing.Size(66, 16);
             this.lblPositionSettings.TabIndex = 40;
             this.lblPositionSettings.Text = "Posición :";
+            this.lblPositionSettings.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblEmailSettings
             // 
+            this.lblEmailSettings.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.lblEmailSettings.AutoSize = true;
             this.lblEmailSettings.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.lblEmailSettings.ForeColor = System.Drawing.SystemColors.Control;
-            this.lblEmailSettings.Location = new System.Drawing.Point(317, 176);
+            this.lblEmailSettings.Location = new System.Drawing.Point(16, 275);
             this.lblEmailSettings.Name = "lblEmailSettings";
-            this.lblEmailSettings.Size = new System.Drawing.Size(97, 18);
+            this.lblEmailSettings.Size = new System.Drawing.Size(48, 16);
             this.lblEmailSettings.TabIndex = 38;
             this.lblEmailSettings.Text = "Email :";
+            this.lblEmailSettings.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblUserNameSettings
             // 
+            this.lblUserNameSettings.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.lblUserNameSettings.AutoSize = true;
             this.lblUserNameSettings.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.lblUserNameSettings.ForeColor = System.Drawing.SystemColors.Control;
-            this.lblUserNameSettings.Location = new System.Drawing.Point(317, 136);
+            this.lblUserNameSettings.Location = new System.Drawing.Point(16, 241);
             this.lblUserNameSettings.Name = "lblUserNameSettings";
-            this.lblUserNameSettings.Size = new System.Drawing.Size(97, 18);
+            this.lblUserNameSettings.Size = new System.Drawing.Size(83, 16);
             this.lblUserNameSettings.TabIndex = 37;
             this.lblUserNameSettings.Text = "UserName : ";
+            this.lblUserNameSettings.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label1
+            // panel2
             // 
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.label1.ForeColor = System.Drawing.SystemColors.Control;
-            this.label1.Location = new System.Drawing.Point(47, 249);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(120, 18);
-            this.label1.TabIndex = 38;
-            this.label1.Text = "Password Nueva :";
+            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel2.Controls.Add(this.panel4);
+            this.panel2.Controls.Add(this.panel3);
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(533, 554);
+            this.panel2.TabIndex = 44;
             // 
-            // textBox1
+            // panel3
             // 
-            this.textBox1.Location = new System.Drawing.Point(173, 247);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(269, 20);
-            this.textBox1.TabIndex = 37;
+            this.panel3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.panel3.Controls.Add(this.lblUserNameSettings);
+            this.panel3.Controls.Add(this.lblPositionSettings);
+            this.panel3.Controls.Add(this.lblEmailSettings);
+            this.panel3.Location = new System.Drawing.Point(253, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(280, 554);
+            this.panel3.TabIndex = 41;
+            // 
+            // panel4
+            // 
+            this.panel4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.panel4.AutoSize = true;
+            this.panel4.Controls.Add(this.iconSettings);
+            this.panel4.Location = new System.Drawing.Point(3, 0);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(252, 551);
+            this.panel4.TabIndex = 42;
             // 
             // frmSettings
             // 
@@ -288,6 +344,11 @@ namespace Presentation
             this.panelFormSettings.ResumeLayout(false);
             this.panelFormSettings.PerformLayout();
             this.panel1.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            this.panel4.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -316,5 +377,8 @@ namespace Presentation
         private System.Windows.Forms.Label lblUserNameSettings;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel panel4;
     }
 }

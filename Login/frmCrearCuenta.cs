@@ -229,9 +229,7 @@ namespace Presentation
 
                     if (nuevoUserValido >=1)
                     {
-                        frmConfiirmacionLogin frmConfiirmacionLogin = new frmConfiirmacionLogin();
-                        frmConfiirmacionLogin.lblBienvenido.Text = txtUser.Text;
-                        frmConfiirmacionLogin.Show();
+                        MessageBox.Show("Cuenta creada con exito");
                         this.Hide();
                     }
                 }
@@ -242,6 +240,13 @@ namespace Presentation
             }
 
 
+        }
+
+        private void lblLogin_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            frmLogin frmLogin = new frmLogin();
+            frmLogin.Show();
+            this.Hide();
         }
     }
 }
